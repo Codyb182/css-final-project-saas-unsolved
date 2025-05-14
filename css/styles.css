@@ -2,6 +2,18 @@
     font-family: sans-serif;
 }
 
+li::marker {
+    content: none;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 45px;
+    border: 1px solid dodgerblue;
+    padding: 15px;
+}
+
 header {
     display: flex;
 }
@@ -15,18 +27,37 @@ header {
 }
 
 .top-navigation {
+    display: flex;
+    justify-content: space-around;
 }
 
 .header-button {
     height: 30px;
 }
 
-.top-info {
+.top-container {
     background-image: url('/assets/bg/background-top.svg');
 }
 
+.top-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.top-button-learn-more {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .multiple-logos {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 200px;
 }
 
 .logo {
