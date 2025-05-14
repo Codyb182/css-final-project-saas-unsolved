@@ -6,6 +6,10 @@ li::marker {
     content: none;
 }
 
+h2 {
+    text-align: center;
+}
+
 button {
     background-color: dodgerblue;
     color: white;
@@ -14,13 +18,13 @@ button {
     padding: 15px;
 }
 
-header {
-    display: flex;
-}
-
 .header-content {
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(211, 211, 211, 0.397);
 }
+
 .top-front-logo {
     height: 40px;
     width: 150px;
@@ -28,11 +32,11 @@ header {
 
 .top-navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 15px;
 }
 
 .header-button {
-    height: 30px;
 }
 
 .top-container {
@@ -66,6 +70,10 @@ header {
     border: 1px solid grey;
     padding: 15px;
     border-radius: 50%;
+}
+
+.price {
+    font-size: 50px;
 }
 
 .pricing-images {
