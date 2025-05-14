@@ -1,5 +1,9 @@
+* {
+    font-family: sans-serif;
+}
+
 header {
-    
+    display: flex;
 }
 
 .header-content {
@@ -11,9 +15,23 @@ header {
 }
 
 .top-navigation {
-    display: flex;
 }
 
 .header-button {
     height: 30px;
+}
+
+.top-info {
+    background-image: url('/assets/bg/background-top.svg');
+}
+
+.multiple-logos {
+    
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    padding: 15px;
 }
