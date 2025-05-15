@@ -50,6 +50,16 @@ button {
 
 }
 
+.fa-play {
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 20px;
+    width: 12px;
+    height: 12px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
 .top-button-learn-more {
     display: flex;
     align-items: center;
@@ -72,18 +82,65 @@ button {
     border-radius: 50%;
 }
 
+.price-statement {
+    text-align: center;
+}
+
+.price-container {
+    display: flex;
+}
+
+.pricing {
+    padding: 25px;
+}
+
 .price {
     font-size: 50px;
 }
 
 .pricing-images {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+}
+
+.components-cancel {
+    
+}
+
+.sketch {
+    background-color: #01C9A7;
+    border: 1px solid #01C9A7;
+}
+
+.images-moneyback {
+    
+}
+
+.container-form {
+    background-color: #20335B;
+    display: flex;
+}
+
+.hire-us {
+    color: white;
+    padding: 15px;
+}
+
+.form {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .portrait {
     border-radius: 50%;
     height: 75px;
+}
+
+footer {
+    display: flex;
+    gap: 10px;
 }
 
 .footer-front-logo {
