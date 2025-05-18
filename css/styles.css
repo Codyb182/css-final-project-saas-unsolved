@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+body {
+    margin: 0 auto;
+}
+
 li::marker {
     content: none;
 }
@@ -119,6 +123,7 @@ button {
 .container-form {
     background-color: #20335B;
     display: flex;
+    padding: 15px;
 }
 
 .hire-us {
@@ -131,6 +136,7 @@ button {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .portrait {
@@ -141,6 +147,7 @@ button {
 footer {
     display: flex;
     gap: 10px;
+    padding: 5px 10px;
 }
 
 .footer-front-logo {
