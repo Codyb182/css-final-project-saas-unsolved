@@ -81,18 +81,57 @@ button {
 .logo {
     height: 50px;
     width: 50px;
-    border: 1px solid grey;
+    border: 1px solid white;
     padding: 15px;
-    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.google {
+    position: fixe;
+}
+
+.atlassian {
+
+}
+
+.paypal {
+    top: 172px;
+    left: 44px;
+    padding: 16px;
+}
+
+.google-ads {
+
+}
+
+.weave {
+
+}
+
+.asana {
+
+}
+
+.why-front {
+    padding: 0 30px 80px;
+}
+
+.why-front-statement {
+    padding: 20px 0 40px;
 }
 
 .why-front-explaination {
     text-align: center;
+    color: rgba(103, 119, 136, 1);
+    line-height: 24px;
+    margin: 0 200px;
 }
 
 .bullet-circles {
     display: flex;
-    justify-content: space-evenly;
+    margin: 0 250px;
     padding: 15px;
 }
 
@@ -113,6 +152,14 @@ button {
     margin: 22px;  
 }
 
+.line-one {
+    width: 83px;
+    height: 1px;
+    border-bottom: 1px solid rgba(230, 233, 242, 1);
+    display: flex;
+    align-items: center;
+}
+
 .circle-two {
     height: 50px;
     width: 50px;
@@ -128,6 +175,12 @@ button {
     border-radius: 50%;
     background-color: #0066FF;
     margin: 22px;
+}
+
+.line-two {
+    width: 83px;
+    height: 1px;
+    border-bottom: 1px solid rgba(230, 233, 242, 1);
 }
 
 .circle-three {
@@ -147,6 +200,12 @@ button {
     margin: 22px;
 }
 
+.line-three {
+    width: 83px;
+    height: 1px;
+    border-bottom: 1px solid rgba(230, 233, 242, 1);
+}
+
 .circle-four {
     height: 50px;
     width: 50px;
@@ -162,6 +221,12 @@ button {
     border-radius: 50%;
     background-color: #0066FF;
     margin: 22px;
+}
+
+.line-four {
+    width: 83px;
+    height: 1px;
+    border-bottom: 1px solid rgba(230, 233, 242, 1);
 }
 
 .bullet-list ul{
@@ -224,10 +289,49 @@ button {
 
 .form {
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #828282;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    padding: 30px;
+    gap: 20px;
+}
+
+.name-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.select-group {
+    display: flex;
+    gap: 20px;
+}
+
+.marketing-emails-privacy-policy {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.market-emails {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.checkbox {
+    height: 25px;
+    width: 24px;
+}
+
+.private-policies {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.private-policy {
+    text-decoration: underline dashed;
 }
 
 .portrait {
