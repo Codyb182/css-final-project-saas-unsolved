@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0 auto;
+  
 }
 
 li::marker {
@@ -86,16 +86,107 @@ button {
     border-radius: 50%;
 }
 
+.why-front-explaination {
+    text-align: center;
+}
+
+.bullet-circles {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.circle-one {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ECF2FF;
+    border-radius: 50%;
+    background-color: #ECF2FF;    
+}
+
+.inner-circle-one {
+    height: 6px;
+    width: 6px;
+    border: 1px solid #0066FF;
+    border-radius: 50%;
+    background-color: #0066FF;
+    margin: 22px;  
+}
+
+.circle-two {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ECF2FF;
+    border-radius: 50%;
+    background-color: #ECF2FF;
+}
+
+.inner-circle-two {
+    height: 6px;
+    width: 6px;
+    border: 1px solid #0066FF;
+    border-radius: 50%;
+    background-color: #0066FF;
+    margin: 22px;
+}
+
+.circle-three {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ECF2FF;
+    border-radius: 50%;
+    background-color: #ECF2FF;
+}
+
+.inner-circle-three {
+    height: 6px;
+    width: 6px;
+    border: 1px solid #0066FF;
+    border-radius: 50%;
+    background-color: #0066FF;
+    margin: 22px;
+}
+
+.circle-four {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ECF2FF; 
+    border-radius: 50%;
+    background-color: #ECF2FF;  
+}
+
+.inner-circle-four {
+    height: 6px;
+    width: 6px;
+    border: 1px solid #0066FF;
+    border-radius: 50%;
+    background-color: #0066FF;
+    margin: 22px;
+}
+
+.bullet-list ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .price-statement {
     text-align: center;
 }
 
 .price-container {
     display: flex;
+    gap: 50px;
+    padding: 10px;
 }
 
 .pricing {
-    padding: 25px;
+    height: 350px;
+    padding: 40px;
+    border: 1px solid #E2E2E2; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .price {
