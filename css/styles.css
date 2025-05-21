@@ -3,7 +3,15 @@
 }
 
 body {
-  
+  margin: 0 2px;
+}
+
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(211, 211, 211, 0.397);
+    padding: 10px 30px;
 }
 
 li::marker {
@@ -20,13 +28,6 @@ button {
     border-radius: 45px;
     border: 1px solid dodgerblue;
     padding: 15px;
-}
-
-.header-content {
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(211, 211, 211, 0.397);
 }
 
 .top-front-logo {
@@ -84,34 +85,51 @@ button {
     border: 1px solid white;
     padding: 15px;
     background-color: #ffffff;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
 }
 
 .google {
-    position: fixe;
+    position: relative;
+    top: 10px;
+    right: 450px;
 }
 
 .atlassian {
-
+    position: relative;
+    bottom: 50px;
+    right: 300px;
 }
 
 .paypal {
-    top: 172px;
-    left: 44px;
+    position: relative;
+    top: 75px;
+    right: 450px;
     padding: 16px;
 }
 
 .google-ads {
-
+    position: relative;
+    top: 150px;
+    right: 335px;
 }
 
 .weave {
-
+    position: relative;
+    bottom: 95px;
+    right: 200px;
 }
 
 .asana {
+    position: relative;
+    bottom: 395px;
+    right: 75px;
+}
 
+.calendar {
+    position: relative;
+    bottom: 50px;
+    right: 100px;
 }
 
 .why-front {
@@ -348,4 +366,11 @@ footer {
 .footer-front-logo {
     height: 100px;
     width: 100px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
 }
