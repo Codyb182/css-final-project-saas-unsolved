@@ -46,13 +46,13 @@ button {
 
 .top-container {
     background-image: url('/assets/bg/background-top.svg');
+    height: 446px;
 }
 
 .top-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-
+    margin: 0 50px;
 }
 
 .fa-play {
@@ -103,20 +103,19 @@ button {
 
 .paypal {
     position: relative;
-    top: 75px;
-    right: 450px;
+    right: 400px;
     padding: 16px;
 }
 
 .google-ads {
     position: relative;
-    top: 150px;
-    right: 335px;
+    top: 50px;
+    right: 315px;
 }
 
 .weave {
     position: relative;
-    bottom: 95px;
+    bottom: 135px;
     right: 200px;
 }
 
@@ -128,7 +127,7 @@ button {
 
 .calendar {
     position: relative;
-    bottom: 50px;
+    bottom: 150px;
     right: 100px;
 }
 
@@ -158,7 +157,9 @@ button {
     width: 50px;
     border: 1px solid #ECF2FF;
     border-radius: 50%;
-    background-color: #ECF2FF;    
+    background-color: #ECF2FF;
+    position: relative;
+    right: 105px;
 }
 
 .inner-circle-one {
@@ -174,8 +175,9 @@ button {
     width: 83px;
     height: 1px;
     border-bottom: 1px solid rgba(230, 233, 242, 1);
-    display: flex;
-    align-items: center;
+    position: relative;
+    top: 25px;
+    right: 75px;
 }
 
 .circle-two {
@@ -184,6 +186,8 @@ button {
     border: 1px solid #ECF2FF;
     border-radius: 50%;
     background-color: #ECF2FF;
+    position: relative;
+    right: 40px;
 }
 
 .inner-circle-two {
@@ -199,6 +203,8 @@ button {
     width: 83px;
     height: 1px;
     border-bottom: 1px solid rgba(230, 233, 242, 1);
+    position: relative;
+    top: 25px;
 }
 
 .circle-three {
@@ -207,6 +213,8 @@ button {
     border: 1px solid #ECF2FF;
     border-radius: 50%;
     background-color: #ECF2FF;
+    position: relative;
+    left: 50px;
 }
 
 .inner-circle-three {
@@ -222,6 +230,9 @@ button {
     width: 83px;
     height: 1px;
     border-bottom: 1px solid rgba(230, 233, 242, 1);
+    position: relative;
+    top: 25px;
+    left: 100px;
 }
 
 .circle-four {
@@ -230,6 +241,8 @@ button {
     border: 1px solid #ECF2FF; 
     border-radius: 50%;
     background-color: #ECF2FF;  
+    position: relative;
+    left: 150px;
 }
 
 .inner-circle-four {
@@ -254,12 +267,14 @@ button {
 
 .price-statement {
     text-align: center;
+    padding: 0 0 35px;
 }
 
 .price-container {
     display: flex;
-    gap: 50px;
+    gap: 60px;
     padding: 10px;
+    margin: 0 15px;
 }
 
 .pricing {
@@ -274,6 +289,15 @@ button {
 
 .price {
     font-size: 50px;
+}
+
+.pricing-line {
+    border-bottom: 1px solid black;
+}
+
+.play-video {
+    width: 150px;
+    margin: 40px 0 0; 
 }
 
 .pricing-images {
@@ -297,12 +321,23 @@ button {
 .container-form {
     background-color: #20335B;
     display: flex;
-    padding: 15px;
+    padding: 25px;
+    gap: 100px;
+    height: 500px;
 }
 
 .hire-us {
     color: white;
     padding: 15px;
+}
+
+.hire-us h3 {
+    font-size: 30px;
+}
+
+.hire-us div {
+    padding: 0 0 15px;
+    color: #677788;
 }
 
 .form {
@@ -313,6 +348,7 @@ button {
     border-radius: 10px;
     padding: 30px;
     gap: 20px;
+    width: 400px;
 }
 
 .name-input {
@@ -338,6 +374,22 @@ button {
     align-items: flex-start;
 }
 
+.form > input {
+    border-color: #E6E8F2;
+}
+
+#email {
+    border-color: #E6E8F2;
+}
+
+ .form select, .form textarea {
+    border-color: #E6E8F2;
+}
+
+textarea {
+    height: 400px;
+}
+
 .checkbox {
     height: 25px;
     width: 24px;
@@ -349,7 +401,7 @@ button {
 }
 
 .private-policy {
-    text-decoration: underline dashed;
+    text-decoration: underline dotted;
 }
 
 .portrait {
