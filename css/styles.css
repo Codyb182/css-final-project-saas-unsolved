@@ -146,10 +146,15 @@ button {
     margin: 0 200px;
 }
 
+.bullets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .bullet-circles {
     display: flex;
-    margin: 0 250px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .circle-one {
@@ -254,15 +259,10 @@ button {
     margin: 22px;
 }
 
-.line-four {
-    width: 83px;
-    height: 1px;
-    border-bottom: 1px solid rgba(230, 233, 242, 1);
-}
-
-.bullet-list ul{
+.bullet-list ul {
+    padding: 15px;
     display: flex;
-    justify-content: space-evenly;
+    gap: 125px;
 }
 
 .price-statement {
@@ -388,6 +388,7 @@ button {
 
 textarea {
     height: 400px;
+    border-radius: 5px;
 }
 
 .checkbox {
@@ -412,12 +413,17 @@ textarea {
 footer {
     display: flex;
     gap: 10px;
-    padding: 5px 10px;
+    padding: 15px 10px;
+    margin: 0 10px;
 }
 
 .footer-front-logo {
-    height: 100px;
+    height: 35px;
     width: 100px;
+}
+
+.footer-front-info {
+    padding: 10px;
 }
 
 footer ul {
@@ -425,4 +431,5 @@ footer ul {
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
+    padding: 25px;
 }
