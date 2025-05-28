@@ -52,7 +52,24 @@ button {
 .top-info {
     display: flex;
     flex-direction: column;
-    margin: 0 50px;
+    gap: px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.top-title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.top-statement {
+    color: #677788;
+}
+
+.learn-more {
+    color: #677788;
+    font-weight: bold;
 }
 
 .fa-play {
@@ -426,10 +443,13 @@ footer {
     padding: 10px;
 }
 
-footer ul {
+ footer ul {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 25px;
+    gap: 10px; 
+} 
+
+footer li {
+    display: flex;
+    gap: 5px;
 }
