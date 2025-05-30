@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0 2px;
+  margin: 0 auto;
 }
 
 header {
@@ -92,63 +92,100 @@ button {
     flex-direction: column;
     align-items: flex-end;
     position: relative;
-    bottom: 200px;
+    bottom: 200px; 
 }
 
-.logo {
+.google-container {
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    right: 550px;
+}
+
+.container {
+    border: 1px solid white;
     height: 80px;
     width: 80px;
-    border: 1px solid white;
-    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 16px;
     border-radius: 50%;
 }
 
-.google {
-    position: relative;
-    right: 425px;
-    bottom: 10px;
+.google-ads-container {
+    border: 1px solid white;
     height: 60px;
     width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+    right: 415px;
+}
+
+.logo {
+     height: 60px;
+     width: 60px;
+}
+
+.google-logo {
+    height: 50px;
+    width: 50px;
 }
 
 .atlassian {
-    position: relative;
-    bottom: 95px;
-    right: 225px;
+   padding: 10px;
+   position: relative;
+   bottom: 130px;
+   right: 300px;
 }
 
 .paypal {
-    position: relative;
-    right: 400px;
-    border-radius: 100%;
-
-}
-
-.google-ads {
-    position: relative;
-    top: 50px;
-    right: 315px;
     height: 60px;
     width: 60px;
+    position: relative;
+    bottom: 85px;
+    right: 475px;
+}
+
+.google-ads-logo{
+    height: 50px;
+    width: 50px;
 }
 
 .weave {
     position: relative;
-    bottom: 135px;
-    right: 200px;
+    bottom: 250px;
+    right: 175px;
 }
 
 .asana {
     position: relative;
-    bottom: 390px;
-    right: 50px;
+    bottom: 525px;
+    right: 35px;
 }
 
 .calendar {
     position: relative;
-    bottom: 150px;
-    right: 100px;
+    bottom: 310px;
+    right: 50px;
 }
 
 .why-front {
@@ -325,17 +362,19 @@ button {
     width: 100px;
 }
 
-.components-cancel {
-    
+.cancel-anytime {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .sketch {
     background-color: #01C9A7;
     border: 1px solid #01C9A7;
-}
-
-.images-moneyback {
-    
+    height: 10px;
+    width: 75px;
+    display: flex;
+    align-items: center;
 }
 
 .container-form {
