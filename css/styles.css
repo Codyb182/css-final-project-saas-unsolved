@@ -41,12 +41,27 @@ button {
     gap: 15px;
 }
 
+.top-navigation a {
+    text-decoration: none;
+    color: #677788;
+}
+
+.top-navigation a:hover {
+    color: blue;
+}
+
+.features {
+    color: dodgerblue;
+}
+
 .header-button {
+    padding: 5px 15px;
 }
 
 .top-container {
     background-image: url('/assets/bg/background-top.svg');
     height: 446px;
+    width: auto;
     }
 
 .top-info {
@@ -320,6 +335,7 @@ button {
     padding: 15px;
     display: flex;
     gap: 125px;
+    margin: 0 40px;
 }
 
 .price-statement {
@@ -494,10 +510,18 @@ footer h4 {
  footer ul {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 10px;
 } 
 
 footer li {
     display: flex;
     gap: 5px;
+}
+
+footer input {
+    background-color: dodgerblue;
+    color: #ffffff;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    padding: 2px 5px;
 }
