@@ -226,7 +226,9 @@ button {
 
 .bullet-circles {
     display: flex;
-    padding: 20px;
+    gap: 10px;
+    padding: 20px 0;
+    margin: 0 35px 0 0;
 }
 
 .circle-one {
@@ -334,6 +336,7 @@ button {
 .bullet-list ul {
     padding: 15px;
     display: flex;
+    justify-content: space-evenly;
     gap: 125px;
     margin: 0 40px;
 }
