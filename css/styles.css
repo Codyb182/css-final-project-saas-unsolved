@@ -393,7 +393,7 @@ button {
     align-items: center;
 }
 
-.container-form {
+.hiring-form-container {
     background-color: #20335B;
     display: flex;
     padding: 25px;
@@ -405,13 +405,14 @@ button {
 .hire-us {
     color: white;
     padding: 15px;
+    display: flex;
 }
 
 .hire-us h3 {
     font-size: 30px;
 }
 
-.hire-us div {
+.goal-statement {
     padding: 0 0 15px;
     color: #677788;
 }

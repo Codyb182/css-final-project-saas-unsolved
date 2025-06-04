@@ -3,7 +3,34 @@
 }
 
 @media (min-width: 768px) AND (max-width: 1023px) {
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
 
+.hiring-form-container {
+    flex-direction: column;
+    height: 700px;
+    gap: 0px;
+}
+
+.hire-us-portion-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.hire-us-portion-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    height: 50px;
+}
+
+footer {
+    gap: 0;
+}
 }
 
 @media (min-width: 375px) AND (max-width: 767px) {
