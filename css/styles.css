@@ -416,6 +416,11 @@ button {
     color: #677788;
 }
 
+.portrait {
+    border-radius: 50%;
+    height: 75px;
+}
+
 .form {
     background-color: white;
     border: 1px solid #828282;
@@ -481,10 +486,6 @@ textarea {
     text-decoration: underline dotted;
 }
 
-.portrait {
-    border-radius: 50%;
-    height: 75px;
-}
 
 footer {
     display: flex;
