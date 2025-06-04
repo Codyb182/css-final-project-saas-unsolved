@@ -10,8 +10,11 @@
 
 .hiring-form-container {
     flex-direction: column;
-    height: 700px;
     gap: 0px;
+}
+
+.hire-us {
+    display: flex;
 }
 
 .hire-us-portion-one {
