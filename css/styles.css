@@ -123,7 +123,7 @@ button {
     right: 550px;
 }
 
-.container {
+.logo-frame-containers {
     border: 1px solid white;
     height: 80px;
     width: 80px;
@@ -393,7 +393,7 @@ button {
     align-items: center;
 }
 
-.hiring-form-container {
+.hire-form-container {
     background-color: #20335B;
     display: flex;
     padding: 25px;
