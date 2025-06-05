@@ -4,8 +4,26 @@
 
 @media (min-width: 768px) AND (max-width: 1023px) {
 .top-container {
-    display: flex;
+    
+}
+
+.multiple-logos {
+    
+}
+
+.price-container {
     flex-direction: column;
+    padding: 60px;
+}
+
+.pricing {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.play-video {
+    margin: 0 auto;
 }
 
 .hire-form-container {
@@ -29,7 +47,6 @@
 .hire-us-portion-two {
     display: flex;
     flex-direction: column;
-    gap: px;
     padding: 15px;
 }
 
