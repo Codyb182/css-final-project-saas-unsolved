@@ -11,20 +11,26 @@
 .hire-form-container {
     flex-direction: column;
     gap: 0px;
+    height: 850px;
 }
 
 .hire-us {
     display: flex;
+    gap: 50px;
+    padding: 15px;
 }
 
 .hire-us-portion-one {
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .hire-us-portion-two {
     display: flex;
     flex-direction: column;
+    gap: px;
+    padding: 15px;
 }
 
 .portrait {
@@ -32,8 +38,17 @@
     height: 100px;
 }
 
+.form-control {
+    display: flex;
+    justify-content: center;
+}
+
 .form {
-    height: 50px;
+    height: 500px;
+}
+
+.option-control {
+    width: 250px;
 }
 
 footer {
