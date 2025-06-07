@@ -4,6 +4,19 @@
 
 @media (min-width: 768px) AND (max-width: 1023px) {
 .top-container {
+    border: 5px solid black;
+    height: 1000px;
+    display: flex;
+}
+
+.top-info {
+    margin: 0 200px;
+}
+
+.multiple-logos {
+    position: absolute;
+    top: 550px;
+    right: 150px
 }
 
 .price-container {
