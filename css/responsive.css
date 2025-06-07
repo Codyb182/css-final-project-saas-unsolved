@@ -101,14 +101,13 @@ hr {
 footer {
     gap: 0;
     justify-content: center;
-    align-items: center;
     margin: 0 auto;
     width: 768px;
+     padding: 20px 0;
 }
 
 .footer-links-container {
     flex-wrap: wrap;
-    padding: 20px 0;
     gap: 25px;
 }
 }
