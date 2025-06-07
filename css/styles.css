@@ -100,11 +100,9 @@ button {
 }
 
 .multiple-logos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: relative;
-    bottom: 200px; 
+    position: absolute;
+    right: 1px;
+    top: 180px;
 }
 
 .google-container {
@@ -493,7 +491,6 @@ textarea {
     text-decoration: underline dotted;
 }
 
-
 footer {
     display: flex;
     gap: 75px;
@@ -508,6 +505,14 @@ footer {
 
 .footer-front-info {
     padding: 10px;
+}
+
+.footer-links-container {
+    display: flex;
+}
+
+.footer-links-container {
+    display: flex;
 }
 
 footer h4 {
