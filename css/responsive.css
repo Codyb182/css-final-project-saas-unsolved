@@ -6,6 +6,7 @@
 .top-container {
     height: 800px;
     display: flex;
+    justify-content: center;
 }
 
 .top-info {
@@ -16,7 +17,8 @@
 
 .top-title {
     text-align: center;
-    width: 700px;
+    width: 650px;
+    margin: 0 2px;
 }
 
 .top-button-learn-more {
@@ -31,18 +33,18 @@
 }
 
 .bullets {
-    width: 768px;
-    margin: 0 auto;
+    width: 650px;
+    margin: 0;
 }
 
 .bullet-circles {
     gap: 0;
-    margin: 0 20px;
+    margin: 0 115px;
 }
 
 .bullet-list ul {
-    gap: 140px;
-    margin: 0 25px;
+    gap: 137px;
+    margin: 0 2px;
 }
 
 .price-container {
@@ -78,7 +80,7 @@
 }
 
 hr {
-    width: 450px;
+    width: 535px;
 }
 
 .hire-us-portion-two {
@@ -98,7 +100,7 @@ hr {
 }
 
 .form {
-    height: 500px;
+    height: 480px;
 }
 
 .option-control {
@@ -120,7 +122,69 @@ footer {
 }
 
 @media (min-width: 375px) AND (max-width: 767px) {
-    body {
-        background-color: aquamarine;
-    }
+    .top-container {
+    height: 800px;
+    display: flex;
+}
+
+.top-info {
+    width: 375px;
+    text-align: center;
+    height: 350px;
+    margin: 0 25px
+}
+
+.top-title {
+    text-align: center;
+    width: 450px;
+}
+
+.top-button-learn-more {
+    justify-content: center;
+}
+
+.multiple-logos {
+    position: relative;
+    top: 400px;
+    left: 75px;
+    margin: 0 auto;
+}
+
+.bullet-circles {
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-one, .line-two, .line-three {
+    display: none;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-links-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+footer h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-career {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 }
