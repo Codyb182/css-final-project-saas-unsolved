@@ -155,6 +155,10 @@ footer {
     align-items: center;
 }
 
+.bullet-list ul {
+    flex-direction: column;
+}
+
 .line-one, .line-two, .line-three {
     display: none;
 }
