@@ -150,17 +150,57 @@ footer {
     margin: 0 auto;
 }
 
+.bullets {
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 .bullet-circles {
     flex-direction: column;
-    align-items: center;
+    gap: 25px;
 }
 
 .bullet-list ul {
     flex-direction: column;
+    gap: 75px;
 }
 
 .line-one, .line-two, .line-three {
     display: none;
+}
+
+.price-container {
+    flex-direction: column;
+}
+
+.pricing {
+    align-items: center;
+}
+
+.pricing-line {
+    width: 375px;
+}
+
+.pricing p {
+    width: 325px;
+    word-spacing: 5px;
+}
+
+.pricing-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.hire-form-container {
+    flex-direction: column;
+    align-items: center;
+    height: 1250px;
+}
+
+.hire-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
