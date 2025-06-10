@@ -150,6 +150,12 @@ footer {
     margin: 0 auto;
 }
 
+.why-front-explaination {
+    height: 150px;
+    width: 375px;
+    margin: 0 auto;
+}
+
 .bullets {
     flex-wrap: nowrap;
     justify-content: center;
@@ -158,6 +164,7 @@ footer {
 .bullet-circles {
     flex-direction: column;
     gap: 25px;
+     
 }
 
 .bullet-list ul {
@@ -191,6 +198,12 @@ footer {
     flex-direction: column;
 }
 
+td {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .hire-form-container {
     flex-direction: column;
     align-items: center;
@@ -205,18 +218,11 @@ footer {
 
 footer {
     flex-direction: column;
-    align-items: center;
     text-align: center;
 }
 
 .footer-links-container {
     flex-direction: column;
-    text-align: center;
-}
-
-footer h4 {
-    display: flex;
-    justify-content: center;
 }
 
 .footer-career {
@@ -227,7 +233,7 @@ footer h4 {
 
 footer li {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 10px;
 }
 
