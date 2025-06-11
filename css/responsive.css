@@ -278,6 +278,8 @@
 
     footer ul {
         padding: 5px;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-career {
