@@ -4,7 +4,7 @@
     }
 }
 
-@media (min-width: 768px) AND (max-width: 1023px)  {
+@media (min-width: 768px) AND (max-width: 1023px)  {    
     .top-navigation {
         display: none;
     }
@@ -12,10 +12,6 @@
     .trigram {
         padding: 10px;
     }
-
-    .trigram i {
-
-   }
 
     .top-container {
         height: 800px;
@@ -179,19 +175,42 @@
     }
 
     .bullets {
-        flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: flex-start;
+        margin: 0 30px;
     }
 
     .bullet-circles {
         flex-direction: column;
         gap: 25px;
-     
     }
 
     .bullet-list ul {
         flex-direction: column;
-        gap: 75px;
+        gap: 65px;
+    }
+    
+    .circle-one {
+        position: relative;
+        bottom: 25px;
+        left: 50px;
+    }
+
+    .circle-two {
+        position: relative;
+        bottom: 18px;
+        left: 50px;
+    }
+
+    .circle-three {
+        position: relative;
+        bottom: 10px;
+        left: 50px;
+    }
+
+    .circle-four {
+        position: relative;
+        bottom: 5px;
+        left: 50px;
     }
 
     .line-one, .line-two, .line-three {
@@ -244,8 +263,21 @@
         text-align: center;
     }
 
+    footer h4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
     .footer-links-container {
         flex-direction: column;
+    }
+
+    footer ul {
+        padding: 5px;
     }
 
     .footer-career {

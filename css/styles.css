@@ -54,6 +54,10 @@ button {
     padding: 5px 15px;
 }
 
+  .trigram i {
+        font-size: 20px;
+   }
+
 .top-container {
     background-image: url('/assets/bg/background-top.svg');
     height: 446px;
@@ -335,6 +339,7 @@ button {
     justify-content: space-evenly;
     gap: 125px;
     margin: 0 40px;
+    font-weight: 500;
 }
 
 .price-statement {
