@@ -2,6 +2,16 @@
     .trigram {
         display: none;
     }
+
+    button:hover {
+        background-color: white;
+        color: dodgerblue;
+    }
+
+    .footer-links-container li:hover {
+        color: dodgerblue;
+        
+    }
 }
 
 @media (min-width: 768px) AND (max-width: 1023px)  {    
