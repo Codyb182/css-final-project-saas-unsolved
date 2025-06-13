@@ -43,11 +43,8 @@ button {
 }
 
 .top-navigation a:hover {
-    color: blue;
-}
-
-.top-navigation .header-feature {
     color: dodgerblue;
+    transition: 1s;
 }
 
 .header-button {
