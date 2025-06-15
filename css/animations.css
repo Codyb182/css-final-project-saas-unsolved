@@ -1,0 +1,53 @@
+@media (min-width: 1024px) {
+    .google-container {
+        animation:;
+    }
+
+    .google-ads-container {
+        animation: ;
+    }
+
+    @keyframes google-ads {
+
+    }
+
+    .atlassian {
+        animation: ;
+    }
+
+    @keyframes atlassian {
+
+    }
+
+    .paypal {
+        animation: ;
+    }
+
+    @keyframes paypal {
+
+    }
+
+    .weave {
+        animation: ;
+    }
+
+    @keyframes weave {
+
+    }
+
+    .asana {
+        animation: ;
+    }
+
+    @keyframes asana {
+
+    }
+
+    .calender {
+        animation: ;
+    }
+
+    @keyframes calender {
+        
+    }
+}

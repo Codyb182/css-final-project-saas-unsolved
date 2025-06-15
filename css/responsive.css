@@ -9,9 +9,21 @@
         transition: 1s;
     }
 
+    .sketch:hover {
+        background-color: white;
+        color: #01C9A7;
+        transition: 1s;
+    }
+
+    #submit-form:hover {
+        background-color: white;
+        color: dodgerblue;
+        transition: 1s;
+    }
+
     .footer-links-container li:hover {
         color: dodgerblue;
-        
+        cursor: pointer;
     }
 }
 
