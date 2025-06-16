@@ -48,15 +48,23 @@
     }
 
     .paypal {
-        animation: ;
+        animation: paypal 3s;
     }
 
     @keyframes paypal {
+        0% {
+            opacity: 0;
+            bottom: -100px;
+        }
 
+        100% {
+            opacity: 1;
+            bottom: 85px;
+        }
     }
 
     .weave {
-        animation: ;
+        animation: weave 3s;
     }
 
     @keyframes weave {
@@ -64,7 +72,7 @@
     }
 
     .asana {
-        animation: ;
+        animation: asana 3s;
     }
 
     @keyframes asana {
@@ -72,7 +80,7 @@
     }
 
     .calender {
-        animation: ;
+        animation: calender 3s;
     }
 
     @keyframes calender {
