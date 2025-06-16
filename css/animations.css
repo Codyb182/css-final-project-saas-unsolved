@@ -1,22 +1,50 @@
 @media (min-width: 1024px) {
     .google-container {
-        animation:;
+        animation: google 3s;
+    }
+
+    @keyframes google {
+        0% {
+            opacity: 0;
+            right: 0px;
+        }
+
+        100% {
+             opacity: 1;
+             right: 550px;
+        }
     }
 
     .google-ads-container {
-        animation: ;
+        animation: google-ads 3s;
     }
 
     @keyframes google-ads {
+        0% { 
+            opacity: 0;
+            right: 0;
+        }
 
+        100% {
+            opacity: 1;
+            right: 415px;
+        }
     }
 
     .atlassian {
-        animation: ;
+        animation: atlassian 3s;
     }
 
     @keyframes atlassian {
+        0% {
+            opacity: 0;
+            bottom: -200px;
+        }
 
+        100% {
+            opacity: 1;
+            bottom: 130px;
+        }
     }
 
     .paypal {
