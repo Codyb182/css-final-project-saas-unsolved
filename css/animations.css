@@ -54,7 +54,7 @@
     @keyframes paypal {
         0% {
             opacity: 0;
-            bottom: -100px;
+            bottom: -200px;
         }
 
         100% {
@@ -68,7 +68,15 @@
     }
 
     @keyframes weave {
+        0% {
+            opacity: 0;
+            bottom: -100px;
+        }
 
+        100% {
+            opacity: 1;
+            bottom: 250px;
+        }
     }
 
     .asana {
@@ -76,14 +84,30 @@
     }
 
     @keyframes asana {
+        0% {
+            opacity: 0;
+            right: -100px;
+        }
 
+        100% {
+            opacity: 1;
+            right: 35px;
+        }
     }
 
-    .calender {
-        animation: calender 3s;
+    .calendar {
+        animation: calendar 3s;
     }
 
-    @keyframes calender {
-        
+    @keyframes calendar {
+        0% {
+            opacity: 0;
+            bottom: 50px;
+        }
+
+        100% {
+            opacity: 1;
+            bottom: 310px;
+        }
     }
 }

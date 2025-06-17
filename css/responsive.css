@@ -9,6 +9,14 @@
         transition: 1s;
     }
 
+    .pricing {
+        transition: box-shadow 3s ease-in-out 2s;
+    }
+
+    .pricing:hover {
+        box-shadow: 5px 5px 5px 5px;
+    }
+
     .sketch:hover {
         background-color: white;
         color: #01C9A7;
@@ -67,7 +75,7 @@
 
     .bullets {
         width: 650px;
-        margin: 0;
+        margin: 0 60px;
     }
 
     .bullet-circles {
@@ -141,7 +149,6 @@
     }
 
     footer {
-        gap: 0;
         justify-content: center;
         margin: 0 auto;
         width: 768px;
@@ -150,7 +157,7 @@
 
     .footer-links-container {
         flex-wrap: wrap;
-        gap: 25px;
+        gap: 50px;
     }
 }
 
