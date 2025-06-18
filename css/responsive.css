@@ -2,11 +2,11 @@
     .trigram {
         display: none;
     }
-
+ 
     button {
-        transition: 1s ease-in-out 2s;
+        transition: 1s;
     }
-    
+
     button:hover {
         background-color: white;
         color: dodgerblue;
@@ -20,14 +20,21 @@
         box-shadow: 5px 5px 5px 5px;
     }
 
-    .sketch:hover {
-        background-color: white;
-        color: #01C9A7;
+    .sketch {
         transition: 1s;
     }
 
+    .sketch:hover {
+        background-color: white;
+        color: #01C9A7;
+    }
+
+    .private-policy-one:hover, .private-policy-two:hover {
+        color: #2476FF;
+    }
+
     #submit-form {
-        transition: 1s ease-in-out 1s;
+        transition: 1s;
     }
 
     #submit-form:hover {
@@ -81,7 +88,8 @@
 
     .bullets {
         width: 650px;
-        margin: 0 60px;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .bullet-circles {
@@ -89,9 +97,10 @@
         margin: 0 115px;
     }
 
-    .bullet-list ul {
-        gap: 137px;
-        margin: 0 2px;
+    .bullet-list li {
+        display: flex;
+        gap: 20px;
+        margin: 0 5px;
     }
 
     .price-container {
@@ -111,7 +120,7 @@
     .hire-form-container {
         flex-direction: column;
         gap: 0px;
-        height: 850px;
+        height: 1000px;
     }
 
     .hire-us {
@@ -147,11 +156,28 @@
     }
 
     .form {
-        height: 480px;
+        height: 600px;
+        width: 650px;
+    }
+
+    .first-name {
+        width: 250px;
+    }
+
+    .last-name {
+        width: 350px;
+    }
+
+    #budget {
+        width: 300px;
     }
 
     .option-control {
-        width: 250px;
+        width: 325px;
+    }
+
+    textarea {
+        height: 1500px;
     }
 
     footer {
@@ -293,6 +319,14 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .name-input {
+        flex-direction: column;
+    }
+
+   .select-group {
+        flex-direction: column;
+   }
 
     footer {
         flex-direction: column;

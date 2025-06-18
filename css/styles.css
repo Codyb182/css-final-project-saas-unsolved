@@ -120,7 +120,7 @@ button {
     border-radius: 50%;
     position: relative;
     bottom: 50px;
-    right: 550px;
+    right: 500px;
 }
 
 .logo-frame-containers {
@@ -166,7 +166,7 @@ button {
    padding: 10px;
    position: relative;
    bottom: 130px;
-   right: 300px;
+   right: 350px;
 }
 
 .paypal {
@@ -185,19 +185,19 @@ button {
 .weave {
     position: relative;
     bottom: 250px;
-    right: 175px;
+    right: 250px;
 }
 
 .asana {
     position: relative;
     bottom: 525px;
-    right: 35px;
+    right: 125px;
 }
 
 .calendar {
     position: relative;
     bottom: 310px;
-    right: 50px;
+    right: 100px;
 }
 
 .why-front {
@@ -447,15 +447,25 @@ button {
 
 .first-name {
     width: 150px;
+    height: 44px;
 }
 
 .last-name {
     width: 250px;
+    height: 44px;
 }
 
 .select-group {
     display: flex;
     gap: 20px;
+}
+
+#budget {
+    height: 44px;
+}
+
+#country {
+    height: 44px;
 }
 
 .marketing-emails-privacy-policy {
@@ -476,6 +486,7 @@ button {
 
 #email {
     border: 1px solid #E6E8F2;
+    height: 44px;
 }
 
  .form select, .form textarea {
@@ -497,14 +508,9 @@ textarea {
     justify-content: space-evenly;
 }
 
-.private-policy-one {
+.private-policy-one, .private-policy-two {
     text-decoration: underline dotted;
     color: #677788;
-}
-
-.private-policy-two {
-     text-decoration: underline dotted;
-     color: #2476FF;
 }
 
 #submit-form {
