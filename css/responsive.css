@@ -3,10 +3,13 @@
         display: none;
     }
 
+    button {
+        transition: 1s ease-in-out 2s;
+    }
+    
     button:hover {
         background-color: white;
         color: dodgerblue;
-        transition: 1s;
     }
 
     .pricing {
@@ -23,10 +26,13 @@
         transition: 1s;
     }
 
+    #submit-form {
+        transition: 1s ease-in-out 1s;
+    }
+
     #submit-form:hover {
         background-color: white;
         color: dodgerblue;
-        transition: 1s;
     }
 
     .footer-links-container li:hover {
