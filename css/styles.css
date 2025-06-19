@@ -503,9 +503,14 @@ textarea {
     width: 24px;
 }
 
+#marketing-email {
+    color: #828282;
+}
+
 .private-policies {
     display: flex;
-    justify-content: space-evenly;
+    margin: 0 40px;
+    gap: 70px;
 }
 
 .private-policy-one, .private-policy-two {

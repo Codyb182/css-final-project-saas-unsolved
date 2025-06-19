@@ -33,6 +33,30 @@
         color: #2476FF;
     }
 
+    .first-name {
+        width: 250px;
+    }
+
+    .last-name {
+        width: 250px;
+    }
+
+    #email {
+        width: 475px;
+    }
+
+    #budget {
+        width: 225px;
+    }
+
+    #country {
+        width: 250px;
+    }
+
+    .private-policies {
+        margin: 0 40px;
+    }
+
     #submit-form {
         transition: 1s;
     }
@@ -61,12 +85,15 @@
         height: 800px;
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
     .top-info {
         width: 700px;
         text-align: center;
         height: 350px;
+        align-items: center;
+        gap: 5px;
     }
 
     .top-title {
@@ -81,8 +108,8 @@
 
     .multiple-logos {
         position: relative;
-        top: 350px;
-        right: 75px;
+        top: 275px;
+        left: 300px;
         margin: 0 auto;
     }
 
@@ -132,17 +159,20 @@
     .hire-us-portion-one {
         display: flex;
         flex-direction: column;
-        padding: 15px;
+        width: 400px
     }
 
     hr {
-        width: 535px;
+        width: 400px;
     }
 
     .hire-us-portion-two {
         display: flex;
         flex-direction: column;
-        padding: 15px;
+        padding: 5px;
+        margin: 20px; 
+        position: relative;
+        bottom: 20px;
     }
 
     .portrait {
@@ -168,6 +198,10 @@
         width: 350px;
     }
 
+    #email {
+        width: 645px;
+    }
+
     #budget {
         width: 300px;
     }
@@ -178,6 +212,10 @@
 
     textarea {
         height: 1500px;
+    }
+
+    .private-policy-two {
+        display: none;
     }
 
     footer {
@@ -285,6 +323,7 @@
 
     .pricing {
         align-items: center;
+        gap: 20px;
     }
 
     .pricing-line {
@@ -295,6 +334,10 @@
         width: 325px;
         word-spacing: 5px;
         }
+    
+    .no-credit-card-required {
+        text-align: center;
+    }
 
     .pricing-table {
         display: flex;
@@ -324,8 +367,24 @@
         flex-direction: column;
     }
 
+    .first-name {
+        width: 475px;
+    }
+
+    .last-name {
+        width: 475px;
+    }
+
+    #email {
+        width: 475px;
+    }
+
    .select-group {
         flex-direction: column;
+   }
+
+   .private-policy-two {
+        display: none;
    }
 
     footer {
