@@ -65,7 +65,6 @@ button {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 100px;
     top: 45px;
     width: 350px;
 }
@@ -219,6 +218,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    max-width: 1200px;
 }
 
 .bullet-circles {
@@ -533,6 +533,7 @@ footer {
     gap: 75px;
     padding: 25px;
     margin: 0 10px;
+    justify-content: center;
 }
 
 .footer-front-logo {

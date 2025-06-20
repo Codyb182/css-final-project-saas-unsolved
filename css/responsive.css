@@ -12,6 +12,10 @@
         color: dodgerblue;
     }
 
+    .top-info {
+        left: 100px;
+    }
+
     .pricing {
         transition: box-shadow 3s ease-in-out 2s;
     }
@@ -231,7 +235,7 @@
     }
 }
 
-@media (min-width: 375px) AND (max-width: 767px) {
+@media (min-width: 370px) AND (max-width: 767px) {
     .top-navigation {
         display: none;
     }
@@ -270,7 +274,6 @@
 
     .why-front-explaination {
         height: 150px;
-        width: 375px;
         margin: 0 auto;
     }
 
@@ -327,7 +330,7 @@
     }
 
     .pricing-line {
-        width: 375px;
+        width: 265px;
     }
 
     .pricing p {
