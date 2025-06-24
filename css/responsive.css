@@ -14,6 +14,7 @@
 
     .top-info {
         left: 100px;
+        margin: 0 150px;
     }
 
     .pricing {
@@ -235,7 +236,7 @@
     }
 }
 
-@media (min-width: 370px) AND (max-width: 767px) {
+@media (min-width: 295px) AND (max-width: 767px) {
     .top-navigation {
         display: none;
     }
