@@ -17,6 +17,12 @@
         margin: 0 150px;
     }
 
+    .multiple-logos {
+    position: absolute;
+    right: 1px;
+    top: 180px;
+    }
+
     .pricing {
         transition: box-shadow 3s ease-in-out 2s;
     }
@@ -114,7 +120,7 @@
     .multiple-logos {
         position: relative;
         top: 275px;
-        left: 300px;
+        left: 375px;
         margin: 0 auto;
     }
 
@@ -267,10 +273,7 @@
     }
 
     .multiple-logos {
-        position: relative;
-        top: 400px;
-        left: 75px;
-        margin: 0 auto;
+        width: 0;
     }
 
     .why-front-explaination {
@@ -367,20 +370,24 @@
         text-align: center;
     }
 
+    .form {
+        width: 295px;
+    }
+
     .name-input {
         flex-direction: column;
     }
 
     .first-name {
-        width: 475px;
+        width: 295px;
     }
 
     .last-name {
-        width: 475px;
+        width: 295px;
     }
 
     #email {
-        width: 475px;
+        width: 295px;
     }
 
    .select-group {
