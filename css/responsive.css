@@ -259,7 +259,7 @@
     }
 
     .top-info {
-        width: 375px;
+        width: 295px;
         text-align: center;
         height: 350px;
         margin: 0 auto;
@@ -275,9 +275,42 @@
     }
 
     .multiple-logos {
-        position: relative;
-        top: 400px;
-        left: 40px;
+        width: 0;
+    }
+
+    .google-container {
+        right: 400px;
+        top: 375px;
+    }
+
+    .google-ads-container {
+        right: 285px;
+        top: 375px
+    }
+
+    .atlassian {
+        right: 275px;
+        top: 300px;
+    }
+
+    .paypal {
+        right: 385px;
+        top: 325px;
+    }
+
+    .weave {
+        right: 200px;
+        top: 175px;
+    }
+
+    .asana {
+        bottom: 75px;
+        right: 115px;
+    }
+
+    .calendar {
+        top: 105px;
+        right: 135px
     }
 
     .why-front-explaination {
