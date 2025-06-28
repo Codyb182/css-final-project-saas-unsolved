@@ -123,7 +123,8 @@
         position: relative;
         top: 275px;
         left: 375px;
-        margin: 0 auto;
+        margin: 0 350px;
+        width: 0;
     }
 
     .bullets {
@@ -135,6 +136,10 @@
     .bullet-circles {
         gap: 0;
         margin: 0 115px;
+    }
+
+    .bullet-list {
+        margin: 0 5px 0 50px;
     }
 
     .bullet-list li {
@@ -204,11 +209,11 @@
     }
 
     .first-name {
-        width: 250px;
+        width: 300px;
     }
 
     .last-name {
-        width: 350px;
+        width: 300px;
     }
 
     #email {
@@ -277,6 +282,9 @@
 
     .multiple-logos {
         width: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .logo {
@@ -295,45 +303,45 @@
         width: 60px;
     }
 
-     .google-container {
-        right: 320px;
-        top: 395px;
+    .google-container {
+        right: 325px;
+        top: 350px;
         padding: 2px;
         height: 45px;
         width: 45px;
     }
 
     .google-ads-container {
-        right: 285px;
-        top: 425px;
+        right: 215px;
+        top: 390px;
         padding: 2px;
         height: 45px;
-        width:45px;
+        width: 45px;
     }
 
     .atlassian {
-        right: 215px;
-        top: 330px;
+        right: 200px;
+        top: 300px;
     }
 
     .paypal {
-        right: 310px;
-        top: 360px;
+        right: 300px;
+        top: 340px;
     }
 
     .weave {
-        right: 175px;
-        top: 235px;
+        right: 140px;
+        top: 225px;
     }
 
     .asana {
-        top: 15px;
-        right: 100px;
+        top: 25px;
+        right: 60px;
     }
 
     .calendar {
-        top: 185px;
-        right: 115px
+        top: 200px;
+        right: 85px
     }
 
     .why-front-explaination {
@@ -387,11 +395,14 @@
 
     .price-container {
         flex-direction: column;
+        align-items: center;
+        padding: 5px;
     }
 
     .pricing {
         align-items: center;
         gap: 20px;
+        width: 250px;
     }
 
     .pricing-line {
@@ -441,15 +452,15 @@
     }
 
     .first-name {
-        width: 275px;
+        width: 270px;
     }
 
     .last-name {
-        width: 275px;
+        width: 270px;
     }
 
     #email {
-        width: 275px;
+        width: 270px;
     }
 
    .select-group {
@@ -458,7 +469,7 @@
 
    textarea {
         height: 300px;
-        width: 275px;
+        width: 270px;
    }
 
    .private-policy-two {
