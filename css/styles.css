@@ -155,6 +155,11 @@ button {
     width: 50px;
 }
 
+.google-ads-logo{
+    height: 50px;
+    width: 50px;
+}
+
 .atlassian {
    padding: 10px;
    position: relative;
@@ -168,11 +173,6 @@ button {
     position: relative;
     bottom: 85px;
     right: 525px;
-}
-
-.google-ads-logo{
-    height: 50px;
-    width: 50px;
 }
 
 .weave {

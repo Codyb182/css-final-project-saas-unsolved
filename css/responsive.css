@@ -254,8 +254,9 @@
     }
     
     .top-container {
-        height: 800px;
+         height: 525px;
         display: flex;
+        margin: 0 0 150px;
     }
 
     .top-info {
@@ -278,39 +279,61 @@
         width: 0;
     }
 
-    .google-container {
-        right: 400px;
-        top: 375px;
+    .logo {
+        height: 45px;
+        width: 45px;
+    }
+
+    .google-logo, .google-ads-logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .logo-frame-containers {
+        padding: 5px;
+        height: 60px;
+        width: 60px;
+    }
+
+     .google-container {
+        right: 320px;
+        top: 395px;
+        padding: 2px;
+        height: 45px;
+        width: 45px;
     }
 
     .google-ads-container {
         right: 285px;
-        top: 375px
+        top: 425px;
+        padding: 2px;
+        height: 45px;
+        width:45px;
     }
 
     .atlassian {
-        right: 275px;
-        top: 300px;
+        right: 215px;
+        top: 330px;
     }
 
     .paypal {
-        right: 385px;
-        top: 325px;
+        right: 310px;
+        top: 360px;
     }
 
     .weave {
-        right: 200px;
-        top: 175px;
+        right: 175px;
+        top: 235px;
     }
 
     .asana {
-        bottom: 75px;
-        right: 115px;
+        top: 15px;
+        right: 100px;
     }
 
     .calendar {
-        top: 105px;
-        right: 135px
+        top: 185px;
+        right: 115px
     }
 
     .why-front-explaination {
@@ -399,7 +422,7 @@
     .hire-form-container {
         flex-direction: column;
         align-items: center;
-        height: 1250px;
+        height: 1500px;
     } 
 
     .hire-us {
@@ -409,7 +432,8 @@
     }
 
     .form {
-        width: 295px;
+        width: 275px;
+        height: 800px;
     }
 
     .name-input {
@@ -417,19 +441,24 @@
     }
 
     .first-name {
-        width: 295px;
+        width: 275px;
     }
 
     .last-name {
-        width: 295px;
+        width: 275px;
     }
 
     #email {
-        width: 295px;
+        width: 275px;
     }
 
    .select-group {
         flex-direction: column;
+   }
+
+   textarea {
+        height: 300px;
+        width: 275px;
    }
 
    .private-policy-two {
